@@ -1,0 +1,27 @@
+{
+	"type": "module",
+	"name": "ateliernode",
+	"version": "1.0.0",
+	"main": "index.js",
+	"dependencies": {
+		"@s3dking/randomjoke": "^2.0.0",
+		"chalk": "^5.4.1",
+		"lolcatjs": "^2.4.3"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Jo-Quattro/atelierNode.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Jo-Quattro/atelierNode/issues"
+	},
+	"homepage": "https://github.com/Jo-Quattro/atelierNode#readme",
+	"description": ""
+}
