@@ -1,16 +1,1 @@
-Assurez-vous que votre fichier `.gitignore` est bien placé à la racine de votre dépôt Git. Si le fichier `.gitignore` est correctement placé et que le dossier `node_modules` n'est toujours pas ignoré, essayez de vérifier les points suivants :
-
-1. Assurez-vous que le dossier `node_modules` n'a pas déjà été ajouté au dépôt. Si c'est le cas, vous devez le supprimer du suivi Git avec la commande suivante :
-    ```sh
-    git rm -r --cached node_modules
-    ```
-
-2. Après avoir supprimé le dossier du suivi, ajoutez les modifications et validez-les :
-    ```sh
-    git add .gitignore
-    git commit -m "Update .gitignore to ignore node_modules"
-    ```
-
-3. Vérifiez que votre fichier `.gitignore` ne contient pas d'espaces ou de caractères invisibles autour de `node_modules`.
-
-Si vous avez suivi ces étapes et que le problème persiste, essayez de partager plus de détails sur la structure de votre projet ou les commandes que vous avez utilisées.
+node_modules
